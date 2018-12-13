@@ -13,7 +13,7 @@ if(!empty($_GET['txid'])) {
 
     $data = [
         'txref' => $txid,
-        'SECKEY' => 'FLWSECK-98cf00a5bdde21e3ba96a955e4f33cfc-X'
+        'SECKEY' => 'FLWSECK-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx-X'
     ];
 
     $curl = curl_init();
